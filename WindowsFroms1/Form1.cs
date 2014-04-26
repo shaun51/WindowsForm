@@ -35,8 +35,11 @@ namespace WindowsFroms1
             }
             else
             {
- 
+                labelToChange.Text = "Text changing is disabled";
+                labelToChange.TextAlign = ContentAlignment.MiddleCenter;
             }
+            AnotherClass newBox = new AnotherClass();
+            
         }
     }
 }
